@@ -19386,8 +19386,8 @@ f4 f6 33 53 12 42 74 67
     <wire from="(250,770)" to="(280,770)"/>
     <wire from="(310,760)" to="(340,760)"/>
     <wire from="(740,960)" to="(1430,960)"/>
-    <wire from="(110,790)" to="(180,790)"/>
     <wire from="(740,960)" to="(1430,960)"/>
+    <wire from="(110,790)" to="(180,790)"/>
     <wire from="(740,960)" to="(1430,960)"/>
     <wire from="(740,960)" to="(1430,960)"/>
     <wire from="(740,960)" to="(1430,960)"/>
@@ -20192,6 +20192,16 @@ f4 f6 33 53 12 42 74 67
       <a name="ongoal" val="wrap"/>
       <a name="trigger" val="rising"/>
       <a name="behavior" val="new"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="4" loc="(130,850)" name="D Flip-Flop">
+      <a name="trigger" val="rising"/>
+      <a name="Pre/Clr Positions" val="LEGACY"/>
+      <a name="NegatePresetClear" val="false"/>
+      <a name="enable" val="true"/>
+      <a name="NewFFLayout" val="false"/>
       <a name="label" val=""/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
